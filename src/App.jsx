@@ -7,20 +7,22 @@ import Bookmarks from './Components/Bookmarks/Bookmarks'
 import Header from './Components/Header/Header'
 
 function App() {
-  const [bookmarks,setBookmarks] = useState([]);
-  const [makeAsRead,setMakeAsRead] = useState(0);
+  const [bookmarks, setBookmarks] = useState([]);
+  const [makeAsRead, setMakeAsRead] = useState(0);
 
   const handleBookmarks = (blog) => {
-    setBookmarks([...bookmarks,blog])
+    setBookmarks([...bookmarks, blog])
   }
 
   // make as read
-  const handleMakeAsRead = (time) => {
+  const handleMakeAsRead = (time, id) => {
     // console.log('readed button clicked', time)
     // setMakeAsRead(makeAsRead + time)
     const newReadTime = makeAsRead + time
     setMakeAsRead(newReadTime)
-    
+    // console.log('remove bookmark', id)
+    const remainingBookmark = bookmarks.filter(bookmark => bookmark.id !== id)
+    setBookmarks(remainingBookmark)
   }
 
   return (
