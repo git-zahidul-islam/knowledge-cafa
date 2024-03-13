@@ -1,0 +1,74 @@
+[
+    {
+        "title": "The Quantum Journey is the good knlnowdge",
+        "cover_image": "https://i.ibb.co/k1v2gD4/Takashi-Kotegawa.jpg",
+        "author": {
+            "user_name": "QuantumExplorer",
+            "user_photo": "https://i.ibb.co/k1v2gD4/Takashi-Kotegawa.jpg"
+        },
+        "reading_time": 3,
+        "make_as_read_button": {
+            "label": "Mark as Read",
+            "action": "https://example.com/api/mark-as-read/123"
+        },
+        "post_date": "14 March 2024",
+        "hash_tag": [
+            "programming",
+            "alzebra"
+        ]
+    },
+    {
+        "title": "The Quantum Journey jus for funny ",
+        "cover_image": "https://i.ibb.co/k1v2gD4/Takashi-Kotegawa.jpg",
+        "author": {
+            "user_name": "QuantumExplorer",
+            "user_photo": "https://i.ibb.co/k1v2gD4/Takashi-Kotegawa.jpg"
+        },
+        "reading_time": 5,
+        "make_as_read_button": {
+            "label": "Mark as Read",
+            "action": "https://example.com/api/mark-as-read/123"
+        },
+        "post_date": "14 March 2024",
+        "hash_tag": [
+            "programming",
+            "alzebra"
+        ]
+    },
+    {
+        "title": "The Quantum Journey is the best opportunity",
+        "cover_image": "https://i.ibb.co/k1v2gD4/Takashi-Kotegawa.jpg",
+        "author": {
+            "user_name": "QuantumExplorer",
+            "user_photo": "https://i.ibb.co/k1v2gD4/Takashi-Kotegawa.jpg"
+        },
+        "reading_time": 4,
+        "make_as_read_button": {
+            "label": "Mark as Read",
+            "action": "https://example.com/api/mark-as-read/123"
+        },
+        "post_date": "14 March 2024",
+        "hash_tag": [
+            "programming",
+            "alzebra"
+        ]
+    },
+    {
+        "title": "The Quantum Journey",
+        "cover_image": "https://i.ibb.co/k1v2gD4/Takashi-Kotegawa.jpg",
+        "author": {
+            "user_name": "QuantumExplorer",
+            "user_photo": "https://i.ibb.co/k1v2gD4/Takashi-Kotegawa.jpg"
+        },
+        "reading_time": 8,
+        "make_as_read_button": {
+            "label": "Mark as Read",
+            "action": "https://example.com/api/mark-as-read/123"
+        },
+        "post_date": "14 March 2024",
+        "hash_tag": [
+            "programming",
+            "alzebra"
+        ]
+    }
+]
