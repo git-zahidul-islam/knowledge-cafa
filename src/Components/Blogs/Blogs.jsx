@@ -7,7 +7,7 @@ const BLogs = ({ handleBookmarks, handleMakeAsRead }) => {
 
     useEffect(() => {
         const fetchData = async () => {
-            const res = await fetch('./public/data.json')
+            const res = await fetch('./data.json')
             const data = await res.json()
             // console.log(data)
             setBlogs(data)
